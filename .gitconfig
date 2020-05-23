@@ -1,0 +1,16 @@
+[user]
+	name = charan
+	email - charanksgowda@gmail.com
+
+[format]
+	signoff = true
+
+[core]
+	editor = vim
+
+[sendemail]
+	smtpserver = mail.charanksgowda@gmail.com
+	smtpserverport = 25
+	smtpencryption = tls
+	smtpuser = charan
+	smtppass = gowdacharan@1993
