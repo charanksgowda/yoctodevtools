@@ -432,11 +432,6 @@
 
 	status = "okay";
 	clock-frequency = <400000>;
-};
-
-&i2c4 {
-        status = "okay";
-        clock-frequency = <400000>;
 
     touch: edt-ft5x06@38 {
         compatible = "edt,edt-ft5406", "edt,edt-ft5x06";
@@ -444,6 +439,7 @@
         interrupt-parent = <&irqc0>;
         interrupts = <1 IRQ_TYPE_LEVEL_LOW>;
     };
+
 };
 
 &i2c5 {
