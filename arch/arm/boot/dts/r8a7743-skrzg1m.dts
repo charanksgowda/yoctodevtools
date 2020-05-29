@@ -434,6 +434,18 @@
 	clock-frequency = <400000>;
 };
 
+&i2c4 {
+        status = "okay";
+        clock-frequency = <400000>;
+
+    touch: ft5506@38 {
+        compatible = "ft5x06,ft5x06-touch";
+        reg = <0x38>;
+        interrupt-parent = <&irqc0>;
+        interrupts = <1 IRQ_TYPE_LEVEL_LOW>;
+    };
+};
+
 &i2c5 {
 	status = "okay";
 	clock-frequency = <400000>;
