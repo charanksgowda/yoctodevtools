@@ -1,1 +1,0 @@
-cmd_arch/arm/boot/uImage := /bin/bash /yocto16/build/tmp/work/skrzg1m-poky-linux-gnueabi/linux-renesas/3.10+git165e12ce2d7839e755debbec78dfa43b54345275-r0/git/scripts/mkuboot.sh -A arm -O linux -C none  -T kernel -a 0x40008000 -e 0x40008000 -n 'Linux-3.10.31-ltsi' -d arch/arm/boot/zImage arch/arm/boot/uImage
