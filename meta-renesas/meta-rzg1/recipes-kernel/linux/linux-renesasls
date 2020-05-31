@@ -1,0 +1,11 @@
+--- drm_fb_helper.c	2020-04-11 16:11:02.091114862 +0530
++++ drm_fb_helperold.c	2020-04-11 16:12:32.559115904 +0530
+@@ -1135,7 +1135,7 @@
+ 		depth = var->bits_per_pixel;
+ 		break;
+ 	}
+-
++	depth = 32;
+ 	switch (depth) {
+ 	case 8:
+ 		var->red.offset = 0;

@@ -1,0 +1,11 @@
+--- a/drivers/gpu/drm/drm_fb_helper.c
++++ b/drivers/gpu/drm/drm_fb_helper.c
+@@ -1135,7 +1135,7 @@
+ 		depth = var->bits_per_pixel;
+ 		break;
+ 	}
+-
++	depth = 32;
+ 	switch (depth) {
+ 	case 8:
+ 		var->red.offset = 0;

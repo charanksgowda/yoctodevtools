@@ -1,0 +1,17 @@
+--- a/drivers/gpu/drm/panel/panel-simple.c	2020-04-18 19:40:25.328060577 +0530
++++ b/drivers/gpu/drm/panel/panel-simple.c	2020-04-18 19:50:34.452067588 +0530
+@@ -728,11 +728,10 @@
+ 
+ static const struct panel_desc hannstar_hsd070pww1 = {
+ 	.timings = &hannstar_hsd070pww1_timing,
+-	.num_timings = 1,
+-	.bpc = 6,
++	.num_timings = 4,
+ 	.size = {
+-		.width = 151,
+-		.height = 94,
++		.width = 229,
++		.height = 149,
+ 	},
+ 	.bus_format = MEDIA_BUS_FMT_RGB666_1X7X3_SPWG,
+ };

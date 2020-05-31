@@ -1,0 +1,16 @@
+--- a/drivers/net/Kconfig
++++ b/drivers/net/Kconfig
+@@ -27,6 +27,13 @@
+ 
+ config MII
+ 	tristate
++config RTL8821AU
++   tristate "Realtek 8821 USB WiFi"
++   depends on USB
+++  select WIRELESS_EXT
++   ---help---
++	Help message of RTL8821AU
++
+ 
+ config NET_CORE
+ 	default y

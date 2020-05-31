@@ -1,0 +1,10 @@
+--- a/drivers/input/touchscreen/Makefile	2020-05-31 01:34:45.396764640 +0530
++++ b/drivers/input/touchscreen/Makefile	2020-05-31 01:34:35.848764530 +0530
+@@ -29,6 +29,7 @@
+ obj-$(CONFIG_TOUCHSCREEN_DA9052)	+= da9052_tsi.o
+ obj-$(CONFIG_TOUCHSCREEN_DYNAPRO)	+= dynapro.o
+ obj-$(CONFIG_TOUCHSCREEN_EDT_FT5X06)	+= edt-ft5x06.o
++obj-$(CONFIG_TOUCHSCREEN_FT5X06)	+= ft5x06_ts.o
+ obj-$(CONFIG_TOUCHSCREEN_HAMPSHIRE)	+= hampshire.o
+ obj-$(CONFIG_TOUCHSCREEN_GUNZE)		+= gunze.o
+ obj-$(CONFIG_TOUCHSCREEN_EETI)		+= eeti_ts.o
